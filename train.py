@@ -1,12 +1,12 @@
 # Libraries
 import jax
-from misc.visualize_reconstructions import visualize_reconstructions
 import optax
 from flax.training import train_state
 from matplotlib import pyplot as plt
 import numpy as np
 
 # Internal Imports
+from src.misc.visualize_reconstructions import visualize_reconstructions
 from src.data_loader.load_dataset import load_cifar10
 from src.model.maeencoder import MAEEncoder
 from src.model.maedecoder import MAEDecoder
