@@ -3,7 +3,7 @@ import jax
 from misc.visualize_reconstructions import visualize_reconstructions
 import optax
 from flax.training import train_state
-from matplotlib.pyplot import plt
+from matplotlib import pyplot as plt
 import numpy as np
 
 # Internal Imports
