@@ -13,7 +13,7 @@ from src.model.maedecoder import MAEDecoder
 from src.model.maeautoencoder import MaskedAutoencoder
 from src.training.train_step import train_step
 from src.testing.evaluate_rec import evaluate_reconstruction 
-
+import jax.numpy as jnp
 
 x_train, x_test = load_cifar10()
 
