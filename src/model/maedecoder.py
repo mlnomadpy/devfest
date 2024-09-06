@@ -1,6 +1,6 @@
 from flax import linen as nn
 from src.model.vit import ViT
-
+import jax.numpy as jnp
 class MAEDecoder(nn.Module):
     patch_size: int = 4
     hidden_dim: int = 128

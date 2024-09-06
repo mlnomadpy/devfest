@@ -1,5 +1,6 @@
 from flax import linen as nn
 from src.model.transformer_block import TransformerBlock
+import jax.numpy as jnp
 
 class ViT(nn.Module):
     patch_size: int = 4

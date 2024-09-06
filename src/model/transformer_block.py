@@ -1,6 +1,7 @@
 from flax import linen as nn
 from src.model.attention import Attention
 from src.model.mlp import MLP
+import jax.numpy as jnp
 
 class TransformerBlock(nn.Module):
     num_heads: int

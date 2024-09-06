@@ -1,4 +1,5 @@
 from flax import linen as nn
+import jax.numpy as jnp
 
 class MLP(nn.Module):
     hidden_dim: int
